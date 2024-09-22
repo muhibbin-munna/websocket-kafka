@@ -29,7 +29,7 @@ This project integrates **Kafka** and **WebSocket** to deliver real-time message
 +------------+         +-----------------+        +----------------+       +-----------------+
    (e.g.,    |  Write  | (event stream)  |        |  Kafka Consumer|       |  (Browsers, Apps)|
  applications| messages|                 |        | WebSocket Handler      |                 |
-  microservices)|       |                 |        | broadcasts to clients) |                 |
+ microservices)|       |                 |        | broadcasts to clients) |                 |
 ```
 
 ## Prerequisites
@@ -80,7 +80,7 @@ Once the project is running, you can interact with the WebSocket server via the 
 
 ### Testing the WebSocket
 
-- **Web Browser**: Open a WebSocket client (e.g., [WebSocket King](https://websocketking.com/)) and connect to `ws://localhost:8080/ws`.
+- **Web Browser**: Open a WebSocket client or web browser and connect to `ws://localhost:8080/ws`.
 - **Postman**: Use the following steps to test the `/kafka/publish` endpoint:
   1. Open Postman.
   2. Send a POST request to `http://localhost:8080/kafka/publish` with a JSON body:
