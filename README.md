@@ -44,7 +44,7 @@ This project integrates **Kafka** and **WebSocket** to deliver real-time message
 1. **Clone the repository**:
 
     ```bash
-    [git clone https://github.com/your-repository-url.git](https://github.com/muhibbin-munna/websocket-kafka.git)
+    git clone https://github.com/muhibbin-munna/websocket-kafka.git
     cd websocket-kafka
     ```
 
