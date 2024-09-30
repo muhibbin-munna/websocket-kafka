@@ -53,13 +53,13 @@ This project integrates **Kafka** and **WebSocket** to deliver real-time message
     - Start ZooKeeper:
 
       ```bash
-      ./bin/zookeeper-server-start.sh config/zookeeper.properties
+      .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
       ```
 
     - Start Kafka broker:
 
       ```bash
-      ./bin/kafka-server-start.sh config/server.properties
+      .\bin\windows\kafka-server-start.bat .\config\server.properties
       ```
 
 3. **Build the project**:
